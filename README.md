@@ -20,4 +20,32 @@ Contain many package help you start project easily
 
 ## Created By
 
-If you like this, follow [@mdiordiev](https://github.com/chellongCoder) on github.
+If you like this, follow [@ChelLong](https://github.com/chellongCoder) on github.
+
+## Install
+
+cd ReactNative-MyTemplate:
+
+```sh
+npm install 
+```
+or using yarn:
+
+```sh
+yarn install
+```
+
+run-ios
+```sh
+react-native run-ios
+```
+
+run-android
+```sh
+react-native run-android
+```
+
+### note
+
+when you run android , you must to config sdk home in android folder.
+create `local.properties` in android folder and add the line `sdk.dir=/Users/chellong/Library/Android/sdk`
