@@ -10,6 +10,8 @@
 import React from 'react'
 import { Component } from 'react';
 import {Platform, StyleSheet, Text, View, TouchableOpacity, } from 'react-native';
+import Counter from './src/container/CounterContainer';
+import CounterStore from './src/store/couter';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -24,11 +26,7 @@ export interface Props {
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
+      <Counter store={new CounterStore()}/>
     );
   }
 }
