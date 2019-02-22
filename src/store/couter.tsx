@@ -1,7 +1,7 @@
 import { observable, action, useStrict, configure } from 'mobx'
 import remotedev from 'mobx-remotedev'
 configure({
-    enforceActions: 'observed'
+    enforceActions: true
 });
 
 @remotedev({
