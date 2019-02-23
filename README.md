@@ -5,18 +5,18 @@ Contain many package help you start project easily
 ## Getting Started
 
 - Follow the [official React Native setup](https://facebook.github.io/react-native/docs/getting-started.html), up to `Testing your React Native Installation`
-- Clone repo: `https://github.com/musefind/react-native-mobx-template.git`
+- Clone repo: `https://github.com/chellongCoder/ReactNative-MyTemplate.git`
 - From the `ReactNative-MyTemplate` directory run `npm install`, then `react-native run-ios`
 - Open the project in your IDE and dive in!
 
 ## Features
 
-- MobX for state management in Stores
-- typescript and jest testing
-- Mobx remote dev tool
-- Iphone X check
-- React native store
-- react native size master
+- [MobX for state management in Stores](https://github.com/mobxjs/mobx-react)
+- [typescript and jest testing](https://github.com/Microsoft/TypeScript-React-Native-Starter)
+- [Mobx remote dev tool](https://github.com/zalmoxisus/mobx-remotedev)
+- [Iphone X check](https://github.com/ptelad/react-native-iphone-x-helper)
+- [React native store](https://github.com/thewei/react-native-store)
+- [react native size master](https://github.com/nirsky/react-native-size-matters)
 
 ## Created By
 
